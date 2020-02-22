@@ -2,7 +2,7 @@ import wikipedia
 import wolframalpha
 
 print("Hi there, how may I help you?")
-query_type = str(input("a. for math and science related questions - 1\nb. for general topics - 2\n>"))
+query_type = str(input("a. for math or science related questions - 1\nb. for general topics - 2\n>"))
 my_input = str(input("question: "))
 
 if query_type == '1':
